@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrizonWeb - Página Principal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="orizonweb-icon.png">
+</head>
+<body>
+    <div class="presentation-page">
+        <center>
+            <img id="principal-image" src="OrizonWeb-transparent.png" alt="1">
+        </center>
+    </div>
+
+
+    <div class="principal-page">
+        <center>
+            <div id="clock">
+                <h1 style="font-size: 90px">Cargando...</h1>
+            </div><br><br>
+            <a id="exclusive_enter">Entrada Exclusiva</a><input type="button" style="background-color: transparent;border:none;" id="helpAccess" value="❔">
+        </center>
+        <br><br><br>
+        <h1 style="font-size: 35px;">Un evento organizado por Wanted Games</h1>
+        <br>
+        <p style="margin-left: 25px;font-size:20px;">
+            WANTED GAMES decidio iniciar una competencia de acertijos y diferentes pisos para llegar a un objetivo, un "tesoro". Este evento<br>
+            tendra varios pisos, acertijos, juegos, y mucho mas. ¡Demostra tu inteligencia, divertite y ganá!
+        </p>
+        <br>
+        <h1 style="font-size: 35px;">Preguntas frecuentes</h1>
+        <br>
+        <p style="margin-left: 25px;font-size: 20px;">
+            <b>¿Cuando va a iniciar?:</b> Se podra jugar el Lunes a las 15:00pm.<br>
+            <b>¿Cuanto va a durar?:</b> 5 dias, desde el Lunes hasta el Viernes a las 15:00pm.<br>
+            <b>¿Que pasa si cierro la pagina y vuelvo mas tarde?:</b> Podes usar el botón de "Retornar regreso" aplicando tu contraseña<br>
+            <b>¿Como se sabe el ganador y como puedo avisarlo?:</b> En nuestro grupo, tenes que avisar cada vez que pases de piso (sera inválido si se nota un salto de piso).<br>
+            <b>¿Cuantas personas ganan?:</b> Los ganadores seran 3, cada puesto con un premio mayor<br>
+            <b>¿Hay premios?:</b> Si, se van a confirmar el primero de Julio<br>
+        </p>
+    </div>
+
+    <div class="clasifications">
+        <span style="display: flex;">
+        <h1>Tabla de clasificaciones</h1><input type="button" id="helpClasifications" value="❔">
+        </span><br>
+        <center>
+            <table>
+                <tr>
+                    <th>Posicion</th>
+                    <th>Nombre</th>
+                    <th>Piso</th>
+                </tr>
+                <tr style="background-color: #ff0;color:#000;">
+                    <td><b>1</b></td>
+                    <td><span id="firstPlace"><b>Diego</b></span></td>
+                    <td><b>0</b></td>
+                </tr>
+                <tr style="background-color: #666;color:#000;">
+                    <td><b>2</b></td>
+                    <td><span id="secondPlace"><b>Uriel</b></span></td>
+                    <td><b>0</b></td>
+                </tr>
+                <tr style="background-color: #CB6D51;color:#000;">
+                    <td><b>3</b></td>
+                    <td><span id="thirdPlace"><b>Bautista</b></span></td>
+                    <td><b>0</b></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><span id="fourthPlace">Aylén</span></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><span id="fifthPlace">Valentino</span></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><span id="sixthPlace">Matias</span></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><span id="seventhPlace">Taiel</span></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><span id="seventhPlace">Barbie</span></td>
+                    <td>0</td>
+                </tr>
+            </table>
+        <br>
+        <input type="button" id="returnProgress" value="Retornar progreso"><input type="button" id="helpReturnProgress" value="❔">
+        </center>
+    </div>
+
+    <div class="credits">
+        <center>
+            <h1>OrizonWeb, por WANTED GAMES</h1>
+            <p>
+                Este evento <b>no se creo para ser una competencia seria</b>, sino para divertirse.
+            </p>
+            <p style="font-size: 12px;">
+                Todas la novedades, advertencias y errores son discutidos y anunciados en el grupo de WhatsApp.
+            </p>
+        </center>
+    </div>
+
+    <script src="button.js"></script>
+    <script src="countdown.js"></script>
+</body>
+</html>
