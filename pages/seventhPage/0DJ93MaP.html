@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B4D T1M3</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function sigueme() {
+            //Capto las coordenads del puntero.
+            var x = window.event.x;
+            var y = window.event.y;
+
+            //Y se las coloco al div.
+            document.getElementById('heart').style.left = x + "px";
+            document.getElementById('heart').style.top = y + "px";
+        }
+    </script>
+</head>
+<body onmousemove="sigueme()">
+    <div id="separators" style="position: absolute;"><br><br><br><br><br><br><br><br><br></div>
+    <center>
+        <div id="bg">
+            <div id="container"><br><br><br><p id="msg">Hola</p></div>
+            <div id="dialogs">ㅤ</div>
+            <div id="separators2"><br><br><br></div>
+        
+            <div id="border">ㅤ</div>
+            <div id="part1">ㅤ</div>
+
+            <img id="heart" style="position: absolute;left: 0px;" src="assets/heart-cursor.png">
+            <div id="part2">ㅤ</div>
+            
+            <div id="part3">ㅤ</div>
+
+            <div id="part4">ㅤ</div>
+
+            <div id="part5">ㅤ</div>
+            <div id="border1">ㅤ</div>
+            <div id="fight"><img src="assets/fight.jpg"></div>
+            <div style="width:100%;display: flex;justify-content: center;color:#fff;margin: 5px;">
+                <div id="healthDisplayer"></div><h1>ㅤㅤ</h1>
+                <div id="patience"></div>
+            </div>
+
+            <div id="hudControllers"></div>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div id="failed">
+            <img src="assets/game-over.png">
+            <h4 style="color: #fff;font-size: 30px;">No pierdas tu... ¡DETERMINACIÓN!</h4>
+        </div>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+</html>
