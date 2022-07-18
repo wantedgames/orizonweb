@@ -22,13 +22,6 @@ accessButton.addEventListener('click', () => {
     if (passwordInput == "39278402") {
         unlockCorrect.play();
         img.innerHTML = '<img src="caja-fuerte-abierta.png">';
-        setTimeout(() => {
-            window.open("../seventhPage/0DJ93MaP.html");
-            window.close();
-        }, 800)
-    }else if (passwordInput == "01687311") {
-        unlockCorrect.play();
-        img.innerHTML = '<img src="caja-fuerte-abierta.png">';
         setTimeout(() =>{
             if (unlock1 && unlock2) {
                 alert("! Hola.");
