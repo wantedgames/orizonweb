@@ -20,7 +20,7 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "4371239") { // Valentino
         returnProgress("0");
     }else if (password == "LaMamaBailarina77") { // Aylén
-        returnProgress("2");
+        returnProgress("3");
     }else if (password == "0609xxx") { // Taiel
         returnProgress("1");
     }else if (password == "NaGiiTO548903") { // Barbie
