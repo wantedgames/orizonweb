@@ -26,7 +26,7 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "NaGiiTO548903") { // Barbie
         returnProgress("6");
     }else if (password == "turron") { // Uriel
-        returnProgress("3");
+        returnProgress("4");
     }else{
         alert("Ninguna de las contraseñas coincide.")
     }
