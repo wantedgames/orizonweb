@@ -28,6 +28,8 @@ returnprogress.addEventListener('click', () => {
         // returnProgress("6");
     }else if (password == "turron") { // Uriel
         returnProgress("5");
+    }else if (password == "Jorge") { // Bautista
+        returnProgress("0");
     }else{
         alert("Ninguna de las contraseñas coincide.")
     }
