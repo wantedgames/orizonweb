@@ -27,7 +27,7 @@ returnprogress.addEventListener('click', () => {
         alert("Esta contraseña fue suspendida hasta el miercoles");
         // returnProgress("6");
     }else if (password == "turron") { // Uriel
-        returnProgress("6");
+        returnProgress("7");
     }else if (password == "Jorge") { // Bautista
         returnProgress("0");
     }else{
