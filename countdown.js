@@ -34,4 +34,4 @@ const countdown = (deadline, elem) => {
 
 };
 
-countdown('July 18, 2022 15:00:00', 'clock');
+countdown('July 18, 2022 05:00:00', 'clock');
