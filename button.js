@@ -17,8 +17,6 @@ returnprogress.addEventListener('click', () => {
 
     if (password == "diegodiez10") { // Diego
         returnProgress("1");
-    }else if (password == "AguanteelCiclon") { // Matias
-        returnProgress("0");
     }else if (password == "4371239") { // Valentino
         returnProgress("0");
     }else if (password == "LaMamaBailarina77") { // Aylén
@@ -26,7 +24,7 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "0609xxx") { // Taiel
         returnProgress("1");
     }else if (password == "NaGiiTO548903") { // Barbie
-        returnProgress("0");
+        returnProgress("1");
     }else if (password == "turron") { // Uriel
         returnProgress("1");
     }else{
