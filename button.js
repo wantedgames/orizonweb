@@ -16,26 +16,19 @@ returnprogress.addEventListener('click', () => {
     let password = prompt("Introduzca su contraseña para retornar tu progreso");
 
     if (password == "diegodiez10") { // Diego
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
-    }else if (password == "Fernando_18") { // Benicio
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(1);
     }else if (password == "AguanteelCiclon") { // Matias
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(0);
     }else if (password == "4371239") { // Valentino
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(0);
     }else if (password == "LaMamaBailarina77") { // Aylén
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(1);
     }else if (password == "0609xxx") { // Taiel
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(1);
     }else if (password == "NaGiiTO548903") { // Barbie
-        alert("Este botón va a estar habilitado cuando inicie el evento.");
-        // returnProgress(0);
+        returnProgress(0);
+    }else if (password == "turron") { // Uriel
+        returnProgress(1);
     }else{
         alert("Ninguna de las contraseñas coincide.")
     }
