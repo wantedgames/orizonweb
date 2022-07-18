@@ -16,7 +16,7 @@ returnprogress.addEventListener('click', () => {
     let password = prompt("Introduzca su contraseña para retornar tu progreso");
 
     if (password == "diegodiez10") { // Diego
-        returnProgress("3");
+        returnProgress("4");
     }else if (password == "4371239") { // Valentino
         returnProgress("0");
     }else if (password == "LaMamaBailarina77") { // Aylén
