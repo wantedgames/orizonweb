@@ -24,7 +24,7 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "0609xxx") { // Taiel
         returnProgress("1");
     }else if (password == "NaGiiTO548903") { // Barbie
-        returnProgress("5");
+        returnProgress("7");
     }else if (password == "turron") { // Uriel
         returnProgress("1");
     }else{
