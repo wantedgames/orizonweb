@@ -24,7 +24,8 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "0609xxx") { // Taiel
         returnProgress("1");
     }else if (password == "NaGiiTO548903") { // Barbie
-        returnProgress("6");
+        alert("Esta contraseña fue suspendida hasta el Jueves");
+        // returnProgress("6");
     }else if (password == "turron") { // Uriel
         returnProgress("5");
     }else{
