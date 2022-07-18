@@ -20,11 +20,11 @@ returnprogress.addEventListener('click', () => {
     }else if (password == "4371239") { // Valentino
         returnProgress("0");
     }else if (password == "LaMamaBailarina77") { // Aylén
-        returnProgress("6");
+        returnProgress("7");
     }else if (password == "0609xxx") { // Taiel
         returnProgress("1");
     }else if (password == "NaGiiTO548903") { // Barbie
-        alert("Esta contraseña fue suspendida hasta el miercoles");
+        alert("Esta contraseña fue suspendida hasta el martes");
         // returnProgress("6");
     }else if (password == "turron") { // Uriel
         returnProgress("7");
