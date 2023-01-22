@@ -9,28 +9,6 @@ exclusive_enter.addEventListener('click', () => {
     returnProgress(lvl);
 })
 
-returnprogress.addEventListener('click', () => {
-    let password = prompt("Introduzca su contraseña para retornar tu progreso");
-
-    if (password == "diegodiez10") { // Diego
-        returnProgress("7");
-    }else if (password == "4371239") { // Valentino
-        returnProgress("0");
-    }else if (password == "LaMamaBailarina77") { // Aylén
-        returnProgress("7");
-    }else if (password == "0609xxx") { // Taiel
-        returnProgress("1");
-    }else if (password == "NaGiiTO548903") { // Barbie
-        returnProgress("6");
-    }else if (password == "turron") { // Uriel
-        returnProgress("7");
-    }else if (password == "Jorge") { // Bautista
-        returnProgress("0");
-    }else{
-        alert("Ninguna de las contraseñas coincide.")
-    }
-});
-
 helpReturnProgress.addEventListener('click', () => {
     alert("Si informaste el ultimo nivel con el que estuviste, podes volver a ese nivel con este botón. Solo introduci la contraseña para entrar.")
 });
