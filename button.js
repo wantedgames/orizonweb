@@ -5,11 +5,8 @@ let helpClasifications = document.getElementById("helpClasifications");
 let helpAccess = document.getElementById("helpAccess");
 
 exclusive_enter.addEventListener('click', () => {
-    let password = prompt("Ingrese la contraseña");
-    if (password == "orizonweb_allowed_permission") { 
-        let lvl = prompt("Ingrese el nivel de acceso (0-7)");
-        returnProgress(lvl);
-    } else { alert("Contraseña incorrecta"); }
+    let lvl = prompt("Ingrese el nivel de acceso (0-7)");
+    returnProgress(lvl);
 })
 
 returnprogress.addEventListener('click', () => {
